@@ -4,6 +4,14 @@ from spider import Spider
 from domain import *
 from general import *
 
+print("\n\n\n\n\n\n\n\n\n")
+print("****************************************")
+print("        Spider - Web Crawler")
+print("          by Jeremy Collins")
+print("****************************************")
+print("\n\n\n\n\n")
+
+
 PROJECT_NAME = input("Project Name: ")
 HOMEPAGE = input("URL to Crawl: ")
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
